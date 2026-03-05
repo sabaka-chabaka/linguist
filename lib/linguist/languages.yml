@@ -9291,3 +9291,12 @@ xBase:
   tm_scope: source.harbour
   ace_mode: text
   language_id: 421
+SabakaLang:
+  type: programming
+  color: "#994700"
+  extensions:
+    - ".sabaka"
+    - ".sar"
+  tm_scope: source.sabakalang
+  ace_mode: text
+  language_id: 123574676

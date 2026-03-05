@@ -1,0 +1,7 @@
+import "base/list.sabaka";
+
+StringList list = new StringList();
+
+list.push_back("Hello");
+list.push_back("World");
+list.printLines();

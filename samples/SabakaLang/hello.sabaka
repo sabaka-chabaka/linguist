@@ -1,0 +1,35 @@
+class FloatList{
+    float[] values = [];
+
+    void push_back(float value){
+        float[] newValues = [];
+        for(int i = 0; i < values.length; i = i + 1){
+            newValues[i] = values[i];
+        }
+        newValues[values.length] = value;
+        values = newValues;
+    }
+    
+    void pop_back(){
+        if(values.length == 0) return;
+        float[] newValues = [];
+        for(int i = 0; i < values.length - 1; i = i + 1){
+            newValues[i] = values[i];
+        }
+        values = newValues;
+    }
+
+    void print(){
+            print(values);
+    }
+
+    void printLines(){
+        for(int i = 0; i < values.length; i = i + 1){
+            print(values[i]);
+        }
+    }
+
+    void clear(){
+        values = [];
+    }
+}
